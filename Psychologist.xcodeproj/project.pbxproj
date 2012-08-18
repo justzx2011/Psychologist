@@ -18,18 +18,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B93F10E15DF4A2C00059A97 /* faceview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = faceview.h; sourceTree = "<group>"; };
+		5B93F10F15DF4A2C00059A97 /* faceview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = faceview.m; sourceTree = "<group>"; };
+		5B93F11015DF4A2C00059A97 /* HappinessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HappinessViewController.h; sourceTree = "<group>"; };
+		5B93F11115DF4A2C00059A97 /* HappinessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
 		5BB62B7815D89C70003F27AE /* Psychologist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Psychologist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB62B7C15D89C70003F27AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5BB62B7E15D89C70003F27AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5BB62B8015D89C70003F27AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5BB62B8415D89C70003F27AE /* Psychologist-Info.plist */ = {isa = PBXFileReference; path = "Psychologist-Info.plist"; sourceTree = "<group>"; };
+		5BB62B8415D89C70003F27AE /* Psychologist-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Psychologist-Info.plist"; sourceTree = "<group>"; };
 		5BB62B8615D89C70003F27AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5BB62B8815D89C70003F27AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5BB62B8A15D89C70003F27AE /* Psychologist-Prefix.pch */ = {isa = PBXFileReference; path = "Psychologist-Prefix.pch"; sourceTree = "<group>"; };
-		5BB62B8B15D89C70003F27AE /* PsychologistAppDelegate.h */ = {isa = PBXFileReference; path = PsychologistAppDelegate.h; sourceTree = "<group>"; };
+		5BB62B8A15D89C70003F27AE /* Psychologist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Psychologist-Prefix.pch"; sourceTree = "<group>"; };
+		5BB62B8B15D89C70003F27AE /* PsychologistAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsychologistAppDelegate.h; sourceTree = "<group>"; };
 		5BB62B8C15D89C70003F27AE /* PsychologistAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsychologistAppDelegate.m; sourceTree = "<group>"; };
 		5BB62B8F15D89C70003F27AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		5BB62B9115D89C70003F27AE /* PsychologistViewController.h */ = {isa = PBXFileReference; path = PsychologistViewController.h; sourceTree = "<group>"; };
+		5BB62B9115D89C70003F27AE /* PsychologistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsychologistViewController.h; sourceTree = "<group>"; };
 		5BB62B9215D89C70003F27AE /* PsychologistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PsychologistViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +83,10 @@
 			children = (
 				5BB62B8B15D89C70003F27AE /* PsychologistAppDelegate.h */,
 				5BB62B8C15D89C70003F27AE /* PsychologistAppDelegate.m */,
+				5B93F10E15DF4A2C00059A97 /* faceview.h */,
+				5B93F10F15DF4A2C00059A97 /* faceview.m */,
+				5B93F11015DF4A2C00059A97 /* HappinessViewController.h */,
+				5B93F11115DF4A2C00059A97 /* HappinessViewController.m */,
 				5BB62B8E15D89C70003F27AE /* MainStoryboard.storyboard */,
 				5BB62B9115D89C70003F27AE /* PsychologistViewController.h */,
 				5BB62B9215D89C70003F27AE /* PsychologistViewController.m */,
@@ -276,6 +284,7 @@
 				5BB62B9815D89C70003F27AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
