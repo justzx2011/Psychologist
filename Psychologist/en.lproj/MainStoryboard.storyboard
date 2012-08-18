@@ -6,6 +6,122 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1181"/>
     </dependencies>
     <scenes>
+        <!--View Controller - Psychologist-->
+        <scene sceneID="gwp-Fy-qN2">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zf1-Qa-wpn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="dbo-rt-4hM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bHR-bE-wLs">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FTs-Yz-wL7">
+                                <rect key="frame" x="55" y="157" width="200" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Dr. Freud">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="2" kind="push" id="Kwg-NG-vfY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="5E7-73-TwU">
+                                <rect key="frame" x="50" y="59" width="200" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Dr. Pill">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gOc-vX-HTr" kind="push" id="Kbb-hk-ObV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Psychologist" id="80l-Dy-HQ1"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-222" y="-505"/>
+        </scene>
+        <!--Psychologist View Controller - Dr. Pill-->
+        <scene sceneID="igz-JG-UQp">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kjo-YY-BXe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="gOc-vX-HTr" customClass="PsychologistViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nvx-d5-lc0">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="So,what brings you to my show,er iPhone app today?                         " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" id="5jz-2h-sID">
+                                <rect key="frame" x="30" y="6" width="243" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="qkb-PE-gGC">
+                                <rect key="frame" x="30" y="90" width="243" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="I'm a celebrity!">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tx0-pg-diL" kind="push" identifier="Celebrity" id="iSV-kR-lwc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="QDq-CU-QXh">
+                                <rect key="frame" x="30" y="158" width="243" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="I hava a serious problem.">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lG6-61-Vky" kind="push" identifier="Serious" id="g45-5E-AE5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XFh-Pg-PC4">
+                                <rect key="frame" x="30" y="222" width="243" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="I wanna be on TV.">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="La5-f2-kam" kind="push" identifier="TV Kook" id="thb-jD-YSP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Dr. Pill" id="kfO-ED-nMV"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="207" y="-880"/>
+        </scene>
         <!--Psychologist View Controller - Dr.Freud-->
         <scene sceneID="5">
             <objects>
@@ -76,7 +192,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="468" y="127"/>
+            <point key="canvasLocation" x="184" y="-181"/>
         </scene>
         <!--Happiness View Controller - Diagnosis-->
         <scene sceneID="TDh-ne-Wg5">
@@ -88,7 +204,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" id="g3H-dC-5ot" customClass="faceview">
-                                <rect key="frame" x="-4" y="-3" width="328" height="422"/>
+                                <rect key="frame" x="-4" y="-3" width="328" height="421"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
@@ -101,7 +217,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="885" y="127"/>
+            <point key="canvasLocation" x="649" y="-17"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Ku1-cV-JJ2">
@@ -115,11 +231,98 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="2" kind="relationship" relationship="rootViewController" id="xBR-BG-eTB"/>
+                        <segue destination="dbo-rt-4hM" kind="relationship" relationship="rootViewController" id="BGV-ME-GEm"/>
                     </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="53" y="127"/>
+            <point key="canvasLocation" x="-618" y="-511"/>
+        </scene>
+        <!--Happiness View Controller - Diagnosis-->
+        <scene sceneID="V2p-HS-XUO">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2l6-Sd-GnK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="lG6-61-Vky" customClass="HappinessViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="45n-mG-40r">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="OEd-d4-ZBt" customClass="faceview">
+                                <rect key="frame" x="-10" y="5" width="330" height="362"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="huM-WZ-jli">
+                                <rect key="frame" x="20" y="375" width="280" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Go  to Dr. Pill's website">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Diagnosis" id="ZCR-oZ-l15"/>
+                    <connections>
+                        <outlet property="faceview" destination="OEd-d4-ZBt" id="RHo-9x-LYf"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="927" y="-914"/>
+        </scene>
+        <!--Happiness View Controller - Diagnosis-->
+        <scene sceneID="GbW-I9-dg8">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WGb-rZ-VWJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="tx0-pg-diL" customClass="HappinessViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1UV-cQ-6ca">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="rjW-Ap-bNa" customClass="faceview">
+                                <rect key="frame" x="-4" y="0.0" width="328" height="421"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Diagnosis" id="rlB-uF-7Kb"/>
+                    <connections>
+                        <outlet property="faceview" destination="rjW-Ap-bNa" id="iX7-zM-16j"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="573" y="-1220"/>
+        </scene>
+        <!--Happiness View Controller - Diagnosis-->
+        <scene sceneID="jmN-VD-TBv">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kg4-Ow-Ltn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="La5-f2-kam" customClass="HappinessViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vm4-MK-feZ">
+                        <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="QFg-68-Cx2" customClass="faceview">
+                                <rect key="frame" x="-4" y="-3" width="328" height="421"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Diagnosis" id="pxX-yC-mNJ"/>
+                    <connections>
+                        <outlet property="faceview" destination="QFg-68-Cx2" id="neD-5A-qHB"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="527" y="-587"/>
         </scene>
     </scenes>
     <classes>

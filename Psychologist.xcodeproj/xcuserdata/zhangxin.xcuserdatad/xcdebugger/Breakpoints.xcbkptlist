@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "Psychologist/PsychologistViewController.m"
-         timestampString = "366975788.905162"
+         timestampString = "366994012.397882"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "32"
-         endingLineNumber = "32"
+         startingLineNumber = "38"
+         endingLineNumber = "38"
          landmarkName = "@implementation PsychologistViewController"
          landmarkType = "3">
       </FileBreakpoint>
@@ -28,6 +28,19 @@
          endingLineNumber = "18"
          landmarkName = "main()"
          landmarkType = "7">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "Psychologist/PsychologistViewController.m"
+         timestampString = "366994012.397882"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "48"
+         endingLineNumber = "48"
+         landmarkName = "-dragons"
+         landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>
