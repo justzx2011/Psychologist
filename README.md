@@ -1,0 +1,2 @@
+通过手动方法和storyboard两种方式实现segue
+
